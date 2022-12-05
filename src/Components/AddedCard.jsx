@@ -34,7 +34,6 @@ const AddedCard = () => {
   
   return (
     <div>
-      <h1>hello</h1>
       {products.length === 0 ? 
       <div className='card1'>
         <div className='cardd'>
