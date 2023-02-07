@@ -37,7 +37,7 @@ const AddedCard = () => {
       {products.length === 0 ? 
       <div className='card1'>
         <div className='cardd'>
-          <img className='carddimg' alt='' src='https://th.bing.com/th/id/R.ba5f888a7ad05641c046223cb27f37c7?rik=Awg6GW8uw4%2baRw&riu=http%3a%2f%2fbaristeelrack.com%2fwp-content%2fuploads%2f2017%2f09%2fBaby-shopping-trolley.jpg&ehk=xPKN%2fMHdKYfDKWhK58pQWUM4IfAFlZDhqZihyIw2JbQ%3d&risl=&pid=ImgRaw&r=0'/>
+          <img className='carddimg' alt='' src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-vector%2Fgirl-pushing-shopping-cart-with-groceries_7686776.htm&psig=AOvVaw03aRUG1f9SR2tkxUUicYHf&ust=1675849408001000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPiR6OSPg_0CFQAAAAAdAAAAABAG'/>
           <button className='backbutton' onClick={()=>navigation("/")}>Back To Shop</button>
         </div>
       </div>:
