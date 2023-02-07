@@ -22,7 +22,7 @@ const Navbar = (props) => {
         <h2 className="muscle">Flip<span className="nav-logo">Store</span></h2>
         <div className={`nav-items ${isOpen && "open"}`}>
           <Link to="/" onClick={() => setIsOpen(!isOpen)}>Home</Link>
-          <Link to="/AddtoCardPage" onClick={() => setIsOpen(!isOpen)}>Card:<span className="nav-logo">{items.length}</span></Link>
+          <Link to="/AddtoCardPage" onClick={() => setIsOpen(!isOpen)}>Cart:<span className="nav-logo">{items.length}</span></Link>
           <Link to="/signup" onClick={() => setIsOpen(!isOpen)}>{isLoggedIn ? "Hello" : "Sign Up"}</Link>
           <Link to="/login" onClick={() => setIsOpen(!isOpen)}>{isLoggedIn ? user.userName : ""}{isLoggedIn ? "" : "Login"}</Link>
           <Link onClick={LogOutUser}>{isLoggedIn ? "Logout" : ""}</Link>
